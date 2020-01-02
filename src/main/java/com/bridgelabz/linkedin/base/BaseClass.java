@@ -5,13 +5,9 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import com.bridgelabz.linkedin.util.Utility;
 
 public class BaseClass {
@@ -19,8 +15,8 @@ public class BaseClass {
 	public static WebDriver driver;
 	public static Properties property;
 	public static JavascriptExecutor js;
-	public static XSSFSheet excelSheet;
-	public static XSSFWorkbook xWorkBook;
+//	public static XSSFSheet excelSheet;
+//	public static XSSFWorkbook xWorkBook;
 		public BaseClass()  {
 			property = new Properties();
 			FileInputStream fis;
@@ -33,24 +29,6 @@ public class BaseClass {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-			
-		}
-		public static void readExcelData() {
-
-			try {
-				
-				FileInputStream fis = new FileInputStream("/home/admin1/Pictures/LinkedinConfig.ods");
-				xWorkBook = new XSSFWorkbook(fis);
-				excelSheet= xWorkBook.getSheet("linkedin");
-				String data= excelSheet.getRow(0).getCell(0).getStringCellValue();
-				System.out.println(data);
-				
-			} catch (FileNotFoundException e) {
-				e.printStackTrace();
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-			
 			
 		}
 		

@@ -29,7 +29,6 @@ public class HomePage extends BaseClass{
 	@FindBy(xpath ="//li-icon[@type='video-camera-icon']" )
 	WebElement selectVideo;
 
-	
 	@FindBy(xpath = "//li-icon[@type='document-icon']")
 	WebElement selectDoc;
 		
@@ -42,12 +41,27 @@ public class HomePage extends BaseClass{
 	@FindBy(xpath = "//span[text()='Next']")
 	WebElement next;
 	
+	@FindBy(xpath = "//span[@class='ph1']")
+	WebElement anyone;
+	
+	@FindBy(xpath = "//h4[text()='Connections only']")
+	WebElement connectionOnly;
+	
+	@FindBy(xpath = "//span[text()='Done']")
+	WebElement done;
+	
+	@FindBy(xpath = "//span[text()='Add hashtag']")
+	WebElement addhash;
+	
 	public HomePage() {
-		PageFactory.initElements(driver,this);
-		
+		PageFactory.initElements(driver,this);		
 	}
+	
 	public void imagePostStory(String title) throws InterruptedException  {
 			startPost.click();
+			anyone.click();
+			connectionOnly.click();
+			done.click();
 			js.executeScript("window.scrollBy(0,350)");	
 			createPost.sendKeys(title);
 			selectImage.click();
@@ -85,7 +99,6 @@ public class HomePage extends BaseClass{
 		post.click();
 		Thread.sleep(10000);
 	}
-
 	
 	
 	}
