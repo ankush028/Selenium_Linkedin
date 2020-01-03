@@ -3,8 +3,8 @@
 <suite name="Linked Application Test Automation Test Suite">
   <test name="Linked list App Test Cases">
     <classes>
-      <class name="com.bridgelabz.linkedin.testcases.LoginPageTest"></class>
-      <class name="com.bridgelabz.linkedin.testcases.HomePageTest"></class>
+    <!--  <class name="com.bridgelabz.linkedin.testcases.LoginPageTest"></class>-->
+  <!--      <class name="com.bridgelabz.linkedin.testcases.HomePageTest"></class>-->
     </classes>
   </test> 
 </suite> 

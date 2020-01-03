@@ -14,6 +14,7 @@ public class HomePageTest extends BaseClass{
 	public HomePageTest() {
 		super();
 	}
+	
 	@BeforeMethod
 	public void setUp() {
 		initialization();
@@ -25,7 +26,6 @@ public class HomePageTest extends BaseClass{
 	@Test(priority = 1)
 	public void createImagePostTest() throws InterruptedException   {
 	   homePage.imagePostStory("Selenium Automation Testing learning purpose");
-
 	}
 	
 	@Test(priority = 2)

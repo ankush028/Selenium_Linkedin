@@ -1,14 +1,15 @@
 package com.bridgelabz.linkedin.testcases;
 
 
-
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 import com.bridgelabz.linkedin.base.BaseClass;
-import com.bridgelabz.linkedin.pages.HomePage;
 import com.bridgelabz.linkedin.pages.Login;
+import com.bridgelabz.linkedin.util.ReadExcel;
+
+import atu.testrecorder.exceptions.ATUTestRecorderException;
 
 public class LoginPageTest extends BaseClass{
 	
@@ -18,7 +19,6 @@ public class LoginPageTest extends BaseClass{
 	
 	
 	Login login;
-	HomePage homePage;
 	
 	@BeforeMethod
 	public void setUp() {		
@@ -26,20 +26,22 @@ public class LoginPageTest extends BaseClass{
 		login = new Login();
 	}
 	
-//	@Test(priority = 1)
-//	public void loginPageTitleTest() {
-//		String title =login.getLoginPageTitle();
-//		assertEquals(title,property.get("expected"));
-//	}
-	@Test(priority = 1)
-	public void loginTest() {
-		
-		homePage =login.login(property.getProperty("username"),property.getProperty("password"));
-		System.out.println(homePage);
+	@DataProvider(name= "login")
+	public Object[][] loginData(){
+		Object[][] data =ReadExcel.getData("Login");
+		return data;
 	}
-
+	
+	
+	@Test(dataProvider = "login")
+	public void loginTest(String username,String password) {
+		login.login(username,password);
+	}
+	
 	@AfterMethod
-	public void tearDown() {
+	public void tearDown() throws ATUTestRecorderException {
+		recorder.stop();
 		driver.quit();
+	
 	}
 }

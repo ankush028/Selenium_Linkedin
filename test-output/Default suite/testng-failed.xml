@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.bridgelabz.linkedin.testcases.PostArticleTest">
+      <class name="com.bridgelabz.linkedin.testcases.HomePageTest">
         <methods>
-          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="postArticleTest"/>
+          <include name="createVideoPostTest"/>
+          <include name="tearDown"/>
+          <include name="createImagePostTest"/>
         </methods>
-      </class> <!-- com.bridgelabz.linkedin.testcases.PostArticleTest -->
+      </class> <!-- com.bridgelabz.linkedin.testcases.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
