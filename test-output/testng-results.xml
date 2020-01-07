@@ -1,35 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="3" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="163599" started-at="2020-01-03T13:42:53Z" finished-at="2020-01-03T13:45:37Z">
+  <suite name="Linked Application Test Automation Test Suite" duration-ms="126023" started-at="2020-01-06T12:29:27Z" finished-at="2020-01-06T12:31:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="163599" started-at="2020-01-03T13:42:53Z" finished-at="2020-01-03T13:45:37Z">
-      <class name="com.bridgelabz.linkedin.testcases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.linkedin.testcases.HomePageTest@f6c48ac]" name="setUp" is-config="true" duration-ms="25576" started-at="2020-01-03T19:12:53Z" finished-at="2020-01-03T19:13:19Z">
+    <test name="Linked list App Test Cases" duration-ms="126023" started-at="2020-01-06T12:29:27Z" finished-at="2020-01-06T12:31:33Z">
+      <class name="com.bridgelabz.linkedin.testcases.SignOutTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.linkedin.testcases.SignOutTest@e45f292]" name="setUp" is-config="true" duration-ms="15197" started-at="2020-01-06T18:00:34Z" finished-at="2020-01-06T18:00:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="createImagePostTest()[pri:1, instance:com.bridgelabz.linkedin.testcases.HomePageTest@f6c48ac]" name="createImagePostTest" duration-ms="14834" started-at="2020-01-03T19:13:19Z" finished-at="2020-01-03T19:13:34Z">
-          <exception class="org.openqa.selenium.WebDriverException">
+        <test-method status="PASS" signature="signOutTest()[pri:1, instance:com.bridgelabz.linkedin.testcases.SignOutTest@e45f292]" name="signOutTest" duration-ms="2843" started-at="2020-01-06T18:00:50Z" finished-at="2020-01-06T18:00:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOutTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.bridgelabz.linkedin.testcases.SignOutTest@e45f292]" name="teardown" is-config="true" duration-ms="159" started-at="2020-01-06T18:00:52Z" finished-at="2020-01-06T18:00:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.bridgelabz.linkedin.testcases.SignOutTest -->
+      <class name="com.bridgelabz.linkedin.testcases.PostArticleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.linkedin.testcases.PostArticleTest@5bcab519]" name="setUp" is-config="true" duration-ms="14752" started-at="2020-01-06T17:59:42Z" finished-at="2020-01-06T17:59:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="postArticleTest()[pri:1, instance:com.bridgelabz.linkedin.testcases.PostArticleTest@5bcab519]" name="postArticleTest" duration-ms="37877" started-at="2020-01-06T17:59:56Z" finished-at="2020-01-06T18:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postArticleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.linkedin.testcases.PostArticleTest@5bcab519]" name="tearDown" is-config="true" duration-ms="193" started-at="2020-01-06T18:00:34Z" finished-at="2020-01-06T18:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bridgelabz.linkedin.testcases.PostArticleTest -->
+      <class name="com.bridgelabz.linkedin.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.linkedin.testcases.LoginPageTest@6fd02e5]" name="setUp" is-config="true" duration-ms="3136" started-at="2020-01-06T17:59:29Z" finished-at="2020-01-06T17:59:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.bridgelabz.linkedin.testcases.LoginPageTest@6fd02e5]" name="loginTest" duration-ms="9450" started-at="2020-01-06T17:59:32Z" data-provider="login" finished-at="2020-01-06T17:59:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[akag006@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.linkedin.testcases.LoginPageTest@6fd02e5]" name="tearDown" is-config="true" duration-ms="177" started-at="2020-01-06T17:59:41Z" finished-at="2020-01-06T17:59:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bridgelabz.linkedin.testcases.LoginPageTest -->
+      <class name="com.bridgelabz.linkedin.testcases.JoinNowPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.linkedin.testcases.JoinNowPageTest@5f2108b5]" name="setUp" is-config="true" duration-ms="2559" started-at="2020-01-06T18:00:53Z" finished-at="2020-01-06T18:00:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="joinNowTest()[pri:1, instance:com.bridgelabz.linkedin.testcases.JoinNowPageTest@5f2108b5]" name="joinNowTest" duration-ms="21864" started-at="2020-01-06T18:00:55Z" finished-at="2020-01-06T18:01:17Z">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
-              <![CDATA[element click intercepted: Element <span class="artdeco-button__text">...</span> is not clickable at point (827, 613). Other element would receive the click: <button data-control-name="confirm_selected_photo" disabled="" id="ember590" class="artdeco-button artdeco-button--2 artdeco-button--primary artdeco-button--disabled ember-view">...</button>
+              <![CDATA[element not interactable
   (Session info: chrome=78.0.3904.108)
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
 System info: host: 'admin1-LIVA-Z2V', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-72-generic', java.version: '1.8.0_232'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}), userDataDir=/tmp/.com.google.Chrome.RUAfc6}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=LINUX, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:39087}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=LINUX, setWindowRect=true}]
-Session ID: 112e16e69ae0a4eed69557f2f803722a]]>
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}), userDataDir=/tmp/.com.google.Chrome.wiOtXw}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=LINUX, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:35661}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=LINUX, setWindowRect=true}]
+Session ID: e8f8a849e302e032a04f03df4adf6895]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: element click intercepted: Element <span class="artdeco-button__text">...</span> is not clickable at point (827, 613). Other element would receive the click: <button data-control-name="confirm_selected_photo" disabled="" id="ember590" class="artdeco-button artdeco-button--2 artdeco-button--primary artdeco-button--disabled ember-view">...</button>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
   (Session info: chrome=78.0.3904.108)
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
 System info: host: 'admin1-LIVA-Z2V', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-72-generic', java.version: '1.8.0_232'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}), userDataDir=/tmp/.com.google.Chrome.RUAfc6}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=LINUX, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:39087}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=LINUX, setWindowRect=true}]
-Session ID: 112e16e69ae0a4eed69557f2f803722a
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}), userDataDir=/tmp/.com.google.Chrome.wiOtXw}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=LINUX, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:35661}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=LINUX, setWindowRect=true}]
+Session ID: e8f8a849e302e032a04f03df4adf6895
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -41,15 +95,15 @@ Session ID: 112e16e69ae0a4eed69557f2f803722a
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:99)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy9.click(Unknown Source)
-	at com.bridgelabz.linkedin.pages.HomePage.imagePostStory(HomePage.java:69)
-	at com.bridgelabz.linkedin.testcases.HomePageTest.createImagePostTest(HomePageTest.java:28)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at com.bridgelabz.linkedin.pages.JoinNowPage.JoinNow(JoinNowPage.java:62)
+	at com.bridgelabz.linkedin.testcases.JoinNowPageTest.joinNowTest(JoinNowPageTest.java:25)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -77,105 +131,51 @@ Session ID: 112e16e69ae0a4eed69557f2f803722a
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createImagePostTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.linkedin.testcases.HomePageTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="255" started-at="2020-01-03T19:13:34Z" finished-at="2020-01-03T19:13:34Z">
+        </test-method> <!-- joinNowTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.linkedin.testcases.JoinNowPageTest@5f2108b5]" name="tearDown" is-config="true" duration-ms="158" started-at="2020-01-06T18:01:18Z" finished-at="2020-01-06T18:01:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.linkedin.testcases.HomePageTest@f6c48ac]" name="setUp" is-config="true" duration-ms="27120" started-at="2020-01-03T19:13:34Z" finished-at="2020-01-03T19:14:01Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.linkedin.testcases.JoinNowPageTest@5f2108b5]" name="setUp" is-config="true" duration-ms="2101" started-at="2020-01-06T18:01:18Z" finished-at="2020-01-06T18:01:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="createVideoPostTest()[pri:2, instance:com.bridgelabz.linkedin.testcases.HomePageTest@f6c48ac]" name="createVideoPostTest" duration-ms="15863" started-at="2020-01-03T19:14:01Z" finished-at="2020-01-03T19:14:17Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[element click intercepted: Element <span class="artdeco-button__text">...</span> is not clickable at point (807, 453). Other element would receive the click: <button data-control-name="confirm_selected_video" disabled="" id="ember531" class="artdeco-button artdeco-button--2 artdeco-button--primary artdeco-button--disabled ember-view">...</button>
-  (Session info: chrome=78.0.3904.108)
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'admin1-LIVA-Z2V', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-72-generic', java.version: '1.8.0_232'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}), userDataDir=/tmp/.com.google.Chrome.FgQHVG}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=LINUX, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:45285}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=LINUX, setWindowRect=true}]
-Session ID: 8a9bb9f0dcf70f8f206992654eb5febe]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: element click intercepted: Element <span class="artdeco-button__text">...</span> is not clickable at point (807, 453). Other element would receive the click: <button data-control-name="confirm_selected_video" disabled="" id="ember531" class="artdeco-button artdeco-button--2 artdeco-button--primary artdeco-button--disabled ember-view">...</button>
-  (Session info: chrome=78.0.3904.108)
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'admin1-LIVA-Z2V', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-72-generic', java.version: '1.8.0_232'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}), userDataDir=/tmp/.com.google.Chrome.FgQHVG}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=LINUX, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:45285}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=LINUX, setWindowRect=true}]
-Session ID: 8a9bb9f0dcf70f8f206992654eb5febe
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy9.click(Unknown Source)
-	at com.bridgelabz.linkedin.pages.HomePage.videoPostStory(HomePage.java:81)
-	at com.bridgelabz.linkedin.testcases.HomePageTest.createVideoPostTest(HomePageTest.java:33)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="privacypolicyTest()[pri:2, instance:com.bridgelabz.linkedin.testcases.JoinNowPageTest@5f2108b5]" name="privacypolicyTest" duration-ms="5546" started-at="2020-01-06T18:01:20Z" finished-at="2020-01-06T18:01:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createVideoPostTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.linkedin.testcases.HomePageTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="253" started-at="2020-01-03T19:14:17Z" finished-at="2020-01-03T19:14:17Z">
+        </test-method> <!-- privacypolicyTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.linkedin.testcases.JoinNowPageTest@5f2108b5]" name="tearDown" is-config="true" duration-ms="179" started-at="2020-01-06T18:01:25Z" finished-at="2020-01-06T18:01:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.linkedin.testcases.HomePageTest@f6c48ac]" name="setUp" is-config="true" duration-ms="39580" started-at="2020-01-03T19:14:17Z" finished-at="2020-01-03T19:14:57Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.linkedin.testcases.JoinNowPageTest@5f2108b5]" name="setUp" is-config="true" duration-ms="2052" started-at="2020-01-06T18:01:26Z" finished-at="2020-01-06T18:01:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createDocumentPostTest()[pri:3, instance:com.bridgelabz.linkedin.testcases.HomePageTest@f6c48ac]" name="createDocumentPostTest" duration-ms="38543" started-at="2020-01-03T19:14:57Z" finished-at="2020-01-03T19:15:35Z">
+        <test-method status="PASS" signature="cookie()[pri:3, instance:com.bridgelabz.linkedin.testcases.JoinNowPageTest@5f2108b5]" name="cookie" duration-ms="1770" started-at="2020-01-06T18:01:28Z" finished-at="2020-01-06T18:01:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createDocumentPostTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.linkedin.testcases.HomePageTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="1327" started-at="2020-01-03T19:15:35Z" finished-at="2020-01-03T19:15:37Z">
+        </test-method> <!-- cookie -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.linkedin.testcases.JoinNowPageTest@5f2108b5]" name="tearDown" is-config="true" duration-ms="91" started-at="2020-01-06T18:01:29Z" finished-at="2020-01-06T18:01:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.bridgelabz.linkedin.testcases.HomePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.linkedin.testcases.JoinNowPageTest@5f2108b5]" name="setUp" is-config="true" duration-ms="2223" started-at="2020-01-06T18:01:30Z" finished-at="2020-01-06T18:01:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="userAgreementTest()[pri:4, instance:com.bridgelabz.linkedin.testcases.JoinNowPageTest@5f2108b5]" name="userAgreementTest" duration-ms="1532" started-at="2020-01-06T18:01:32Z" finished-at="2020-01-06T18:01:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userAgreementTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.linkedin.testcases.JoinNowPageTest@5f2108b5]" name="tearDown" is-config="true" duration-ms="161" started-at="2020-01-06T18:01:33Z" finished-at="2020-01-06T18:01:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bridgelabz.linkedin.testcases.JoinNowPageTest -->
+    </test> <!-- Linked list App Test Cases -->
+  </suite> <!-- Linked Application Test Automation Test Suite -->
 </testng-results>

@@ -3,26 +3,30 @@ package com.bridgelabz.linkedin.base;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import com.bridgelabz.linkedin.util.Utility;
+//import atu.testrecorder.ATUTestRecorder;
 
-import atu.testrecorder.ATUTestRecorder;
-import atu.testrecorder.exceptions.ATUTestRecorderException;
 
+/**
+ * @author Ankush Kumar Agrawal
+ *@purpose 
+ */
 public class BaseClass {
 
 	public static WebDriver driver;
 	public static Properties property;
 	public static JavascriptExecutor js;
-	public static ATUTestRecorder recorder;
+//	public static ATUTestRecorder recorder;
 	
+		/**
+		 * @Constructor
+		 * @Motive To load the config.properties file 
+		 */
 		public BaseClass()  {
 			property = new Properties();
 			FileInputStream fis;
@@ -36,21 +40,29 @@ public class BaseClass {
 				e.printStackTrace();
 			}
 		}				
+
+	/**
+	 * @Purpose  Open browser with sepecific operations
+	 */
 	public static void initialization(){
 		String browsername =property.getProperty("browser");
 		if(browsername.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver",
 					"/home/admin1/Desktop/SeleniumDriver/chromedriver_linux64/chromedriver");
 			driver = new ChromeDriver();
-			DateFormat dateFormat = new SimpleDateFormat("yy-mm-dd HH-mm-ss");
-			Date date = new Date();
+	
 			
-			try {
-				recorder = new ATUTestRecorder("/home/admin1/Desktop/JavaAdvanced/Linkedin/TestRecording/","Test-"+dateFormat.format(date),false);
-				recorder.start();
-			} catch (ATUTestRecorderException e) {
-				e.printStackTrace();
-			}
+			
+//	
+//			DateFormat dateFormat = new SimpleDateFormat("yy-mm-dd HH-mm-ss");
+//			Date date = new Date();
+//			try {
+//				recorder = new ATUTestRecorder("/home/admin1/Desktop/JavaAdvanced/Linkedin/TestRecording/","Test-"+dateFormat.format(date),false);
+//				recorder.start();
+//			} catch (ATUTestRecorderException e) {
+//				e.printStackTrace();
+//			}
+//	
 			js = (JavascriptExecutor) driver;
 		}else {
 			System.out.println(property.getProperty("invalid"));

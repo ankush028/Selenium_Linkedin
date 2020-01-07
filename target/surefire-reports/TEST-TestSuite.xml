@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="10" failures="5" name="TestSuite" time="203.057" errors="0" skipped="0">
+  <properties>
+    <property name="DISPLAY" value=":0"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="CLUTTER_IM_MODULE" value="xim"/>
+    <property name="java.home" value="/home/admin1/.jenkins/tools/hudson.model.JDK/JAVA_HOME/jre"/>
+    <property name="LOGNAME" value="admin1"/>
+    <property name="VTE_VERSION" value="5202"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="PWD" value="/home/admin1/Downloads"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+    <property name="GDMSESSION" value="ubuntu"/>
+    <property name="java.endorsed.dirs" value="/home/admin1/.jenkins/tools/hudson.model.JDK/JAVA_HOME/jre/lib/endorsed"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="GPG_AGENT_INFO" value="/run/user/1000/gnupg/S.gpg-agent:0:1"/>
+    <property name="java.version" value="1.8.0_172"/>
+    <property name="TEXTDOMAIN" value="im-config"/>
+    <property name="JOB_NAME" value="Linkedin"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="INVOCATION_ID" value="cc6d00e0fa8740cf9641dd10384d25ac"/>
+    <property name="XDG_DATA_DIRS" value="/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop"/>
+    <property name="user.name" value="admin1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="XDG_RUNTIME_DIR" value="/run/user/1000"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="XDG_SESSION_DESKTOP" value="ubuntu"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Linkedin/7/display/redirect?page=changes"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="path.separator" value=":"/>
+    <property name="BUILD_TAG" value="jenkins-Linkedin-7"/>
+    <property name="TERM" value="xterm-256color"/>
+    <property name="GTK_MODULES" value="gail:atk-bridge"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="PATH" value="/home/admin1/.jenkins/tools/hudson.model.JDK/JAVA_HOME/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"/>
+    <property name="QT_ACCESSIBILITY" value="1"/>
+    <property name="DESKTOP_SESSION" value="ubuntu"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /home/admin1/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven /home/admin1/.jenkins/war/WEB-INF/lib/remoting-3.36.jar /home/admin1/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar /home/admin1/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar 33215"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="XDG_CONFIG_DIRS" value="/etc/xdg/xdg-ubuntu:/etc/xdg"/>
+    <property name="JENKINS_SERVER_COOKIE" value="3276f9797aa805bc"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="XDG_SESSION_TYPE" value="x11"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="user.language" value="en"/>
+    <property name="line.separator" value="
+"/>
+    <property name="COLORTERM" value="truecolor"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Linkedin/7/"/>
+    <property name="SSH_AGENT_PID" value="1500"/>
+    <property name="SHLVL" value="1"/>
+    <property name="M2_HOME" value="/home/admin1/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven"/>
+    <property name="USER" value="admin1"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="DBUS_STARTER_BUS_TYPE" value="session"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="BUILD_DISPLAY_NAME" value="#7"/>
+    <property name="WINDOWPATH" value="1"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="HUDSON_SERVER_COOKIE" value="3276f9797aa805bc"/>
+    <property name="DBUS_STARTER_ADDRESS" value="unix:path=/run/user/1000/bus,guid=aa9d691088820a9ce08ff9f25e13fd02"/>
+    <property name="MAVEN_HOME" value="/home/admin1/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven"/>
+    <property name="GNOME_TERMINAL_SERVICE" value=":1.81"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="SESSION_MANAGER" value="local/admin1-LIVA-Z2V:@/tmp/.ICE-unix/1419,unix/admin1-LIVA-Z2V:/tmp/.ICE-unix/1419"/>
+    <property name="maven3.interceptor.common" value="/home/admin1/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="GNOME_DESKTOP_SESSION_ID" value="this-is-deprecated"/>
+    <property name="JOURNAL_STREAM" value="9:28107"/>
+    <property name="XAUTHORITY" value="/run/user/1000/gdm/Xauthority"/>
+    <property name="LESSCLOSE" value="/usr/bin/lesspipe %s %s"/>
+    <property name="XDG_MENU_PREFIX" value="gnome-"/>
+    <property name="XDG_CURRENT_DESKTOP" value="ubuntu:GNOME"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="7"/>
+    <property name="maven3.interceptor" value="/home/admin1/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="QT_IM_MODULE" value="ibus"/>
+    <property name="POM_GROUPID" value="com.bridgelabz"/>
+    <property name="POM_ARTIFACTID" value="Linkedin"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="DBUS_SESSION_BUS_ADDRESS" value="unix:path=/run/user/1000/bus,guid=aa9d691088820a9ce08ff9f25e13fd02"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/Linkedin/"/>
+    <property name="MANAGERPID" value="1266"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Linkedin/7/display/redirect"/>
+    <property name="GNOME_SHELL_SESSION_MODE" value="ubuntu"/>
+    <property name="JENKINS_HOME" value="/home/admin1/.jenkins"/>
+    <property name="BUILD_ID" value="7"/>
+    <property name="sun.boot.library.path" value="/home/admin1/.jenkins/tools/hudson.model.JDK/JAVA_HOME/jre/lib/amd64"/>
+    <property name="TEXTDOMAINDIR" value="/usr/share/locale/"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="GTK_IM_MODULE" value="ibus"/>
+    <property name="HUDSON_HOME" value="/home/admin1/.jenkins"/>
+    <property name="PATH+MAVEN" value="/home/admin1/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/bin"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="JAVA_HOME" value="/home/admin1/.jenkins/tools/hudson.model.JDK/JAVA_HOME"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/Linkedin/display/redirect"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.ext.dirs" value="/home/admin1/.jenkins/tools/hudson.model.JDK/JAVA_HOME/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="os.version" value="4.15.0-72-generic"/>
+    <property name="user.home" value="/home/admin1"/>
+    <property name="USERNAME" value="admin1"/>
+    <property name="_" value="/usr/bin/java"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="IM_CONFIG_PHASE" value="2"/>
+    <property name="user.dir" value="/home/admin1/Desktop/JavaAdvanced/Linkedin"/>
+    <property name="maven.conf" value="/home/admin1/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/conf"/>
+    <property name="XDG_VTNR" value="1"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vm.version" value="25.172-b11"/>
+    <property name="java.class.path" value="/home/admin1/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.13.jar:/home/admin1/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/boot/plexus-classworlds-2.6.0.jar:/home/admin1/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="XDG_SEAT" value="seat0"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="WORKSPACE" value="/home/admin1/.jenkins/workspace/Linkedin"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="LANG" value="en_IN"/>
+    <property name="LESSOPEN" value="| /usr/bin/lesspipe %s"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.runtime.version" value="1.8.0_172-b11"/>
+    <property name="XDG_SESSION_ID" value="1"/>
+    <property name="sun.boot.class.path" value="/home/admin1/.jenkins/tools/hudson.model.JDK/JAVA_HOME/jre/lib/resources.jar:/home/admin1/.jenkins/tools/hudson.model.JDK/JAVA_HOME/jre/lib/rt.jar:/home/admin1/.jenkins/tools/hudson.model.JDK/JAVA_HOME/jre/lib/sunrsasign.jar:/home/admin1/.jenkins/tools/hudson.model.JDK/JAVA_HOME/jre/lib/jsse.jar:/home/admin1/.jenkins/tools/hudson.model.JDK/JAVA_HOME/jre/lib/jce.jar:/home/admin1/.jenkins/tools/hudson.model.JDK/JAVA_HOME/jre/lib/charsets.jar:/home/admin1/.jenkins/tools/hudson.model.JDK/JAVA_HOME/jre/lib/jfr.jar:/home/admin1/.jenkins/tools/hudson.model.JDK/JAVA_HOME/jre/classes"/>
+    <property name="QT4_IM_MODULE" value="xim"/>
+    <property name="PATH+JDK" value="/home/admin1/.jenkins/tools/hudson.model.JDK/JAVA_HOME/bin"/>
+    <property name="user.country" value="IN"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="maven.home" value="/home/admin1/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven"/>
+    <property name="JOB_BASE_NAME" value="Linkedin"/>
+    <property name="XMODIFIERS" value="@im=ibus"/>
+    <property name="GNOME_TERMINAL_SCREEN" value="/org/gnome/Terminal/screen/caf26f08_3893_4f7e_8b04_e4ea3ab03ce4"/>
+    <property name="HOME" value="/home/admin1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="SSH_AUTH_SOCK" value="/run/user/1000/keyring/ssh"/>
+    <property name="LS_COLORS" value="rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:"/>
+    <property name="POM_DISPLAYNAME" value="Linkedin"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+  </properties>
+  <testcase classname="com.bridgelabz.linkedin.testcases.LoginPageTest" name="loginTest" time="20.344"/>
+  <testcase classname="com.bridgelabz.linkedin.testcases.PostArticleTest" name="postArticleTest" time="52.239">
+    <failure message="element not interactable
+  (Session info: chrome=78.0.3904.108)
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;admin1-LIVA-Z2V&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-72-generic&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}), userDataDir=/tmp/.com.google.Chrome.BEhdVS}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=LINUX, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:33545}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=LINUX, setWindowRect=true}]
+Session ID: 638cb951d62175b36d54f6ca08ddb598" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=78.0.3904.108)
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;admin1-LIVA-Z2V&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-72-generic&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}), userDataDir=/tmp/.com.google.Chrome.BEhdVS}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=LINUX, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:33545}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=LINUX, setWindowRect=true}]
+Session ID: 638cb951d62175b36d54f6ca08ddb598
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at com.bridgelabz.linkedin.pages.PostArticle.writeArticle(PostArticle.java:68)
+	at com.bridgelabz.linkedin.testcases.PostArticleTest.postArticleTest(PostArticleTest.java:31)
+</failure>
+    <system-err>Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 12302
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 07, 2020 11:34:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.bridgelabz.linkedin.testcases.SignOutTest" name="signOutTest" time="21.316">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@id=&apos;nav-settings__dropdown-trigger&apos;]&quot;}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;admin1-LIVA-Z2V&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-72-generic&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}), userDataDir=/tmp/.com.google.Chrome.dMePB9}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=LINUX, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:42559}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=LINUX, setWindowRect=true}]
+Session ID: f160da054e63e8d14fbe8dfc0c06eec5
+*** Element info: {Using=xpath, value=//button[@id=&apos;nav-settings__dropdown-trigger&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@id=&apos;nav-settings__dropdown-trigger&apos;]&quot;}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;admin1-LIVA-Z2V&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-72-generic&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}), userDataDir=/tmp/.com.google.Chrome.dMePB9}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=LINUX, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:42559}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=LINUX, setWindowRect=true}]
+Session ID: f160da054e63e8d14fbe8dfc0c06eec5
+*** Element info: {Using=xpath, value=//button[@id=&apos;nav-settings__dropdown-trigger&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at com.bridgelabz.linkedin.pages.SignOut.signOut(SignOut.java:23)
+	at com.bridgelabz.linkedin.testcases.SignOutTest.signOutTest(SignOutTest.java:38)
+</failure>
+    <system-err>Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 29301
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 07, 2020 11:35:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.bridgelabz.linkedin.testcases.JoinNowPageTest" name="joinNowTest" time="13.519"/>
+  <testcase classname="com.bridgelabz.linkedin.testcases.HomePageTest" name="createImagePostTest" time="21.301">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@class=&apos;share-box__open share-box__trigger p4 hoverable-link-text t-16 t-black--light t-bold&apos;]&quot;}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;admin1-LIVA-Z2V&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-72-generic&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}), userDataDir=/tmp/.com.google.Chrome.RKoy4o}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=LINUX, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:35477}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=LINUX, setWindowRect=true}]
+Session ID: c0e0f7c34f7911ee4bd9546798d50d52
+*** Element info: {Using=xpath, value=//button[@class=&apos;share-box__open share-box__trigger p4 hoverable-link-text t-16 t-black--light t-bold&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@class=&apos;share-box__open share-box__trigger p4 hoverable-link-text t-16 t-black--light t-bold&apos;]&quot;}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;admin1-LIVA-Z2V&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-72-generic&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}), userDataDir=/tmp/.com.google.Chrome.RKoy4o}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=LINUX, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:35477}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=LINUX, setWindowRect=true}]
+Session ID: c0e0f7c34f7911ee4bd9546798d50d52
+*** Element info: {Using=xpath, value=//button[@class=&apos;share-box__open share-box__trigger p4 hoverable-link-text t-16 t-black--light t-bold&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at com.bridgelabz.linkedin.pages.HomePage.imagePostStory(HomePage.java:76)
+	at com.bridgelabz.linkedin.testcases.HomePageTest.createImagePostTest(HomePageTest.java:42)
+</failure>
+    <system-err>Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 1502
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 07, 2020 11:36:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.bridgelabz.linkedin.testcases.JoinNowPageTest" name="privacypolicyTest" time="16.725"/>
+  <testcase classname="com.bridgelabz.linkedin.testcases.HomePageTest" name="createVideoPostTest" time="20.886">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@class=&apos;share-box__open share-box__trigger p4 hoverable-link-text t-16 t-black--light t-bold&apos;]&quot;}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;admin1-LIVA-Z2V&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-72-generic&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}), userDataDir=/tmp/.com.google.Chrome.5mk9zO}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=LINUX, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:36813}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=LINUX, setWindowRect=true}]
+Session ID: 9c2c0573c3406d203eee93f30733c7fb
+*** Element info: {Using=xpath, value=//button[@class=&apos;share-box__open share-box__trigger p4 hoverable-link-text t-16 t-black--light t-bold&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@class=&apos;share-box__open share-box__trigger p4 hoverable-link-text t-16 t-black--light t-bold&apos;]&quot;}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;admin1-LIVA-Z2V&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-72-generic&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}), userDataDir=/tmp/.com.google.Chrome.5mk9zO}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=LINUX, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:36813}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=LINUX, setWindowRect=true}]
+Session ID: 9c2c0573c3406d203eee93f30733c7fb
+*** Element info: {Using=xpath, value=//button[@class=&apos;share-box__open share-box__trigger p4 hoverable-link-text t-16 t-black--light t-bold&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at com.bridgelabz.linkedin.pages.HomePage.videoPostStory(HomePage.java:100)
+	at com.bridgelabz.linkedin.testcases.HomePageTest.createVideoPostTest(HomePageTest.java:51)
+</failure>
+    <system-err>Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 7528
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 07, 2020 11:37:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.bridgelabz.linkedin.testcases.JoinNowPageTest" name="cookie" time="13.239"/>
+  <testcase classname="com.bridgelabz.linkedin.testcases.HomePageTest" name="createDocumentPostTest" time="20.824">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@class=&apos;share-box__open share-box__trigger p4 hoverable-link-text t-16 t-black--light t-bold&apos;]&quot;}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;admin1-LIVA-Z2V&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-72-generic&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}), userDataDir=/tmp/.com.google.Chrome.888AtL}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=LINUX, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:37165}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=LINUX, setWindowRect=true}]
+Session ID: 3d3885a7ee7d1b32940a9754f6a739c7
+*** Element info: {Using=xpath, value=//button[@class=&apos;share-box__open share-box__trigger p4 hoverable-link-text t-16 t-black--light t-bold&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@class=&apos;share-box__open share-box__trigger p4 hoverable-link-text t-16 t-black--light t-bold&apos;]&quot;}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;admin1-LIVA-Z2V&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-72-generic&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}), userDataDir=/tmp/.com.google.Chrome.888AtL}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=LINUX, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:37165}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=LINUX, setWindowRect=true}]
+Session ID: 3d3885a7ee7d1b32940a9754f6a739c7
+*** Element info: {Using=xpath, value=//button[@class=&apos;share-box__open share-box__trigger p4 hoverable-link-text t-16 t-black--light t-bold&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at com.bridgelabz.linkedin.pages.HomePage.documentPostStory(HomePage.java:118)
+	at com.bridgelabz.linkedin.testcases.HomePageTest.createDocumentPostTest(HomePageTest.java:59)
+</failure>
+    <system-err>Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}) on port 25555
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jan 07, 2020 11:38:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.bridgelabz.linkedin.testcases.JoinNowPageTest" name="userAgreementTest" time="2.664"/>
+</testsuite>

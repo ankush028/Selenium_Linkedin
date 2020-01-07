@@ -8,38 +8,67 @@ import com.bridgelabz.linkedin.base.BaseClass;
 import com.bridgelabz.linkedin.pages.HomePage;
 import com.bridgelabz.linkedin.pages.JoinNowPage;
 
+/**
+ * @purpose To test functionality of JoinNow Registration Page
+ * @author Ankush Kumar Agrawal
+ *
+ */
 public class JoinNowPageTest extends BaseClass{
 	JoinNowPage joinnow;
-	 public JoinNowPageTest() {
+	
+	 /**
+	 * @Constructor
+	 */
+	public JoinNowPageTest() {
 		super();
 	} 
 	
+	/**
+	 * @purpose Execute first before every method
+	 */
 	@BeforeMethod
 	public void setUp() {
 		initialization();
 		joinnow= new JoinNowPage();
 	}
 	
+	/**
+	 * @purpose To test registration functionality
+	 */
 	@Test(priority = 1)
 	public void joinNowTest() {
 		HomePage home =joinnow.JoinNow(property.getProperty("first"), property.getProperty("last"),
 				property.getProperty("email"),property.getProperty("password"));
-		
 		System.out.println(home);
 	}
+	/**
+	 * @purpose To test privacy policy functionality
+	 * @throws InterruptedException
+	 */
 	@Test(priority = 2)
 	public void privacypolicyTest() throws InterruptedException {
 		joinnow.privacypolicy();
 	}
+	/**
+	 * @purpose To test cookie functionality
+	 * @throws InterruptedException
+	 */
 	@Test(priority = 3)
 	public void cookie() {
 		joinnow.cookie();
 	}
+	/**
+	 * @purpose To test user Agreement functionality
+	 * @throws InterruptedException
+	 */
 	@Test(priority = 4)
 	public void userAgreementTest() {
 		joinnow.userAgreement();
 	}
-
+	/**
+	 * @purpose Execute method after every method
+	 * @throws InterruptedException
+	 */
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();

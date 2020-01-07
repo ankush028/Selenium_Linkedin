@@ -5,10 +5,12 @@ import java.util.ArrayList;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Listeners;
 
 import com.bridgelabz.linkedin.base.BaseClass;
+import com.bridgelabz.linkedin.util.CustomListener;
 import com.bridgelabz.linkedin.util.Utility;
-
+@Listeners(CustomListener.class)
 public class PostArticle extends BaseClass {
 
 	public PostArticle() {
@@ -47,6 +49,11 @@ public class PostArticle extends BaseClass {
 	WebElement publish_artile; 
 	
 	
+	/**
+	 * @purpose test of write Article Post
+	 * @throws InterruptedException
+	 * 
+	 */
 	public void writeArticle() throws InterruptedException {
 
 		selectArticle.click();

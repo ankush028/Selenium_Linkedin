@@ -9,23 +9,30 @@ import com.bridgelabz.linkedin.base.BaseClass;
 import com.bridgelabz.linkedin.pages.Login;
 import com.bridgelabz.linkedin.util.ReadExcel;
 
-import atu.testrecorder.exceptions.ATUTestRecorderException;
 
 public class LoginPageTest extends BaseClass{
 	
+	/**
+	 * @Constructor
+	 */
 	public LoginPageTest() {
 		super(); 
-	}
-	
-	
+	}	
 	Login login;
 	
+	/**
+	 * @purpose Execute first before every method
+	 */
 	@BeforeMethod
 	public void setUp() {		
 		initialization();
 		login = new Login();
 	}
 	
+	/**
+	 * @purpose To provide data from excelsheet to login method
+	 * @return data from excel sheet
+	 */
 	@DataProvider(name= "login")
 	public Object[][] loginData(){
 		Object[][] data =ReadExcel.getData("Login");
@@ -33,14 +40,22 @@ public class LoginPageTest extends BaseClass{
 	}
 	
 	
+	/**
+	 * @purpose To test login functionality
+	 * @param username
+	 * @param password
+	 */
 	@Test(dataProvider = "login")
 	public void loginTest(String username,String password) {
 		login.login(username,password);
 	}
 	
+	/**
+	 * @purpose Execute after every method
+	 */
 	@AfterMethod
-	public void tearDown() throws ATUTestRecorderException {
-		recorder.stop();
+	public void tearDown() {
+	//	recorder.stop();
 		driver.quit();
 	
 	}

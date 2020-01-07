@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Linked Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.bridgelabz.linkedin.extentreportlistener.ExtentReporterNG"/>
+  </listeners>
   <test name="Linked list App Test Cases(failed)">
     <classes>
       <class name="com.bridgelabz.linkedin.testcases.JoinNowPageTest">
         <methods>
-          <include name="privacypolicyTest"/>
           <include name="setUp"/>
-          <include name="cookie"/>
           <include name="joinNowTest"/>
-          <include name="userAgreementTest"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.bridgelabz.linkedin.testcases.JoinNowPageTest -->
-      <class name="com.bridgelabz.linkedin.testcases.HomePageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="createDocumentPostTest"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.bridgelabz.linkedin.testcases.HomePageTest -->
     </classes>
   </test> <!-- Linked list App Test Cases(failed) -->
 </suite> <!-- Failed suite [Linked Application Test Automation Test Suite] -->

@@ -8,14 +8,22 @@ import com.bridgelabz.linkedin.base.BaseClass;
 import com.bridgelabz.linkedin.pages.Login;
 import com.bridgelabz.linkedin.pages.PostArticle;
 
+/**
+ * @author Ankush Kumar Agrawal
+ *@purpose To test the post article functionality
+ */
 public class PostArticleTest extends BaseClass{
 
 	PostArticle postarticle;
 	Login login;
 	
+	/**
+	 * @Constructor
+	 */
 	public PostArticleTest() {
 		super();
 	}
+	
 	@BeforeMethod
 	public void setUp() {
 		
@@ -30,6 +38,7 @@ public class PostArticleTest extends BaseClass{
 		postarticle.writeArticle();
 		Thread.sleep(3000);
 	}
+	
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();

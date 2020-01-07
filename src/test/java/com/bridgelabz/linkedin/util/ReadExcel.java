@@ -7,7 +7,12 @@ import java.io.IOException;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+/**
+ * @author Ankush Kumar Agrawal
+ *@purpose To Read data from excel sheet
+ */
 public class ReadExcel {
+	
 	
 	public static XSSFWorkbook xWorkBook;
 	public static XSSFSheet xsheet;
@@ -15,6 +20,11 @@ public class ReadExcel {
 	public static FileInputStream fis;
 	
 	
+	/**
+	 * @purpose To read data from excel sheet 
+	 * @param sheet
+	 * @return data of excel sheet in 2D array
+	 */
 	public static Object[][] getData(String sheet) {		
 			try {
 				fis = new FileInputStream(src);
@@ -28,14 +38,13 @@ public class ReadExcel {
 			xsheet = xWorkBook.getSheet(sheet);
 			int row = xsheet.getLastRowNum();
 			Object[][] data = new Object[row][2];			
-		//	int row = xsheet.getPhysicalNumberOfRows();
-			
+			int k=0;
 			for(int i=0;i<row;i++) {
-				Object user =xsheet.getRow(i+1).getCell(0).getStringCellValue() ;				
+				Object user =xsheet.getRow(i+1).getCell(k).getStringCellValue() ;				
 				data[i][0] = user;					
 			}
 			for(int i=0;i<row;i++) {
-				Object pass = xsheet.getRow(i+1).getCell(1).getStringCellValue();			
+				Object pass = xsheet.getRow(i+1).getCell(k+1).getStringCellValue();			
 				data[i][1] = pass;				
 			}
 			
