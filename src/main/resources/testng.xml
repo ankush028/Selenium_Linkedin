@@ -2,10 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Linked Application Test Automation Test Suite">
 
-	<listeners>
+<!--  	<listeners>
 		<listener
 			class-name="com.bridgelabz.linkedin.extentreportlistener.ExtentReporterNG"></listener>
-	</listeners>
+	</listeners>-->
 	<test name="Linked list App Test Cases">
 		<classes>
 			<class name="com.bridgelabz.linkedin.testcases.LoginPageTest"></class>
