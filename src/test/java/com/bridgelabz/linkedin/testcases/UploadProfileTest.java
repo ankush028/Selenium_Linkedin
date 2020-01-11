@@ -3,43 +3,28 @@ package com.bridgelabz.linkedin.testcases;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
-import org.testng.annotations.Test;
 
 import com.bridgelabz.linkedin.base.BaseClass;
 import com.bridgelabz.linkedin.pages.Login;
-import com.bridgelabz.linkedin.pages.PostArticle;
+import com.bridgelabz.linkedin.pages.UploadProfile;
 import com.bridgelabz.linkedin.util.CustomListener;
 
-/**
- * @author Ankush Kumar Agrawal
- *@purpose To test the post article functionality
- */
 @Listeners(CustomListener.class)
-public class PostArticleTest extends BaseClass{
-
-	PostArticle postarticle;
-	Login login;
+public class UploadProfileTest extends BaseClass{
 	
-	/**
-	 * @Constructor
-	 */
-	public PostArticleTest() {
-		super();
-	}
+	
+	public UploadProfile upload;
 	
 	@BeforeMethod
 	public void setUp() {
-		
 		initialization();
-		login = new Login();
+		Login login = new Login();
 		login.login(property.getProperty("username"),property.getProperty("password"));
-		postarticle = new PostArticle();
+		upload = new UploadProfile();
 	}
 	
-//	@Test(priority = 1)
-	public void postArticleTest() throws InterruptedException {
-		postarticle.writeArticle();
-		Thread.sleep(3000);
+	public void uploadImage() throws InterruptedException {
+		upload.addProfile();
 	}
 	
 	@AfterMethod

@@ -1,0 +1,10 @@
+what is log -> capturing information/activities	at the time of program execution
+types of log->
+	1.info
+	2.warn
+	3.error
+	4.fatal
+	
+how to generate Logs -> use apache log4j api(log4j jar)
+how it works -> it reads log4j configuration from log4j.properties file
+Where to create file ->	create inside resources folder

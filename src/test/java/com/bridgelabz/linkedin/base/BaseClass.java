@@ -5,9 +5,13 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
+
+import org.apache.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+
+import com.bridgelabz.linkedin.testcases.LoginPageTest;
 import com.bridgelabz.linkedin.util.Utility;
 //import atu.testrecorder.ATUTestRecorder;
 
@@ -22,7 +26,7 @@ public class BaseClass {
 	public static Properties property;
 	public static JavascriptExecutor js;
 //	public static ATUTestRecorder recorder;
-	
+	public static Logger log = Logger.getLogger(LoginPageTest.class);
 		/**
 		 * @Constructor
 		 * @Motive To load the config.properties file 
@@ -49,10 +53,9 @@ public class BaseClass {
 		if(browsername.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver",
 					"/home/admin1/Desktop/SeleniumDriver/chromedriver_linux64/chromedriver");
+			log.info("Launching Chrome browser");	
 			driver = new ChromeDriver();
-	
-			
-			
+				
 //	
 //			DateFormat dateFormat = new SimpleDateFormat("yy-mm-dd HH-mm-ss");
 //			Date date = new Date();

@@ -6,6 +6,10 @@ import org.testng.ITestResult;
 
 import com.bridgelabz.linkedin.base.BaseClass;
 
+/**
+ * @author Ankush Kumar Agrawal
+ *@purpose Methods in which time we want to take screen shot
+ */
 public class CustomListener extends BaseClass implements ITestListener{
 
 	public void onTestStart(ITestResult result) {

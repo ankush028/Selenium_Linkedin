@@ -3,16 +3,12 @@ package com.bridgelabz.linkedin.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.Listeners;
-
 import com.bridgelabz.linkedin.base.BaseClass;
-import com.bridgelabz.linkedin.util.CustomListener;
 
 /**
  * @author Ankush kumar Agrawal
  * @purpose to test Registration page functionality
  */
-@Listeners(CustomListener.class)
 public class JoinNowPage extends BaseClass{
 	
 	@FindBy(xpath="//a[@class='nav__button-tertiary']")

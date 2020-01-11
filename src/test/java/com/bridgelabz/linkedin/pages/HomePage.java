@@ -3,17 +3,13 @@ package com.bridgelabz.linkedin.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.Listeners;
-
 import com.bridgelabz.linkedin.base.BaseClass;
-import com.bridgelabz.linkedin.util.CustomListener;
 import com.bridgelabz.linkedin.util.Utility;
 
 /**
  * @author Ankush kumar Agrawal
  *@purpose To test Home page functionality
  */
-@Listeners(CustomListener.class)
 public class HomePage extends BaseClass{
 	
 	@FindBy(xpath="//button[@class='share-box__open share-box__trigger p4 hoverable-link-text t-16 t-black--light t-bold']")

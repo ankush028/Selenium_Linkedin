@@ -6,7 +6,6 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Listeners;
-
 import com.bridgelabz.linkedin.base.BaseClass;
 import com.bridgelabz.linkedin.util.CustomListener;
 

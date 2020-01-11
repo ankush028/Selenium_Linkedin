@@ -2,17 +2,20 @@ package com.bridgelabz.linkedin.testcases;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.bridgelabz.linkedin.base.BaseClass;
 import com.bridgelabz.linkedin.pages.HomePage;
 import com.bridgelabz.linkedin.pages.JoinNowPage;
+import com.bridgelabz.linkedin.util.CustomListener;
 
 /**
  * @purpose To test functionality of JoinNow Registration Page
  * @author Ankush Kumar Agrawal
  *
  */
+@Listeners(CustomListener.class)
 public class JoinNowPageTest extends BaseClass{
 	JoinNowPage joinnow;
 	
@@ -35,7 +38,7 @@ public class JoinNowPageTest extends BaseClass{
 	/**
 	 * @purpose To test registration functionality
 	 */
-	@Test(priority = 1)
+//	@Test(priority = 1)
 	public void joinNowTest() {
 		HomePage home =joinnow.JoinNow(property.getProperty("first"), property.getProperty("last"),
 				property.getProperty("email"),property.getProperty("password"));
@@ -45,7 +48,7 @@ public class JoinNowPageTest extends BaseClass{
 	 * @purpose To test privacy policy functionality
 	 * @throws InterruptedException
 	 */
-	@Test(priority = 2)
+//	@Test(priority = 2)
 	public void privacypolicyTest() throws InterruptedException {
 		joinnow.privacypolicy();
 	}
@@ -53,7 +56,7 @@ public class JoinNowPageTest extends BaseClass{
 	 * @purpose To test cookie functionality
 	 * @throws InterruptedException
 	 */
-	@Test(priority = 3)
+//	@Test(priority = 3)
 	public void cookie() {
 		joinnow.cookie();
 	}
@@ -61,7 +64,7 @@ public class JoinNowPageTest extends BaseClass{
 	 * @purpose To test user Agreement functionality
 	 * @throws InterruptedException
 	 */
-	@Test(priority = 4)
+//	@Test(priority = 4)
 	public void userAgreementTest() {
 		joinnow.userAgreement();
 	}

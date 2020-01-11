@@ -6,13 +6,13 @@
   </listeners>
   <test name="Linked list App Test Cases(failed)">
     <classes>
-      <class name="com.bridgelabz.linkedin.testcases.JoinNowPageTest">
+      <class name="com.bridgelabz.linkedin.testcases.LoginPageTest">
         <methods>
-          <include name="setUp"/>
-          <include name="joinNowTest"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="loginTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.bridgelabz.linkedin.testcases.JoinNowPageTest -->
+      </class> <!-- com.bridgelabz.linkedin.testcases.LoginPageTest -->
     </classes>
   </test> <!-- Linked list App Test Cases(failed) -->
 </suite> <!-- Failed suite [Linked Application Test Automation Test Suite] -->
