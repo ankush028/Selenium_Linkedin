@@ -1,6 +1,5 @@
 package com.bridgelabz.linkedin.testcases;
 
-import org.automationtesting.excelreport.Xl;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -67,11 +66,11 @@ public class LoginPageTest extends BaseClass {
 	}
 
 //	@AfterSuite
-	public void generateReport() {
-		try {
-			Xl.generateReport("Excel-Report.xlsx");
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
+//	public void generateReport() {
+//		try {
+//			Xl.generateReport("Excel-Report.xlsx");
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//		}
+//	}
 }

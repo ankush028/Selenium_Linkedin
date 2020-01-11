@@ -1,15 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Linked Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.bridgelabz.linkedin.extentreportlistener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Linked list App Test Cases(failed)">
     <classes>
-      <class name="com.bridgelabz.linkedin.testcases.LoginPageTest">
+      <class name="com.bridgelabz.linkedin.testcases.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="createDocumentPostTest"/>
+          <include name="createVideoPostTest"/>
+          <include name="tearDown"/>
+          <include name="createImagePostTest"/>
+        </methods>
+      </class> <!-- com.bridgelabz.linkedin.testcases.HomePageTest -->
+      <class name="com.bridgelabz.linkedin.testcases.PostArticleTest">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="loginTest" invocation-numbers="0"/>
+          <include name="postArticleTest"/>
         </methods>
-      </class> <!-- com.bridgelabz.linkedin.testcases.LoginPageTest -->
+      </class> <!-- com.bridgelabz.linkedin.testcases.PostArticleTest -->
+      <class name="com.bridgelabz.linkedin.testcases.SignOutTest">
+        <methods>
+          <include name="signOutTest"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.bridgelabz.linkedin.testcases.SignOutTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Linked list App Test Cases(failed) -->
+</suite> <!-- Failed suite [Linked Application Test Automation Test Suite] -->
