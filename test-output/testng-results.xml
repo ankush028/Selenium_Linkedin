@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30076" started-at="2020-01-10T07:21:52Z" finished-at="2020-01-10T07:22:22Z">
+  <suite name="Default suite" duration-ms="11470" started-at="2020-01-11T04:37:16Z" finished-at="2020-01-11T04:37:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="30076" started-at="2020-01-10T07:21:52Z" finished-at="2020-01-10T07:22:22Z">
+    <test name="Default test" duration-ms="11470" started-at="2020-01-11T04:37:16Z" finished-at="2020-01-11T04:37:27Z">
       <class name="com.bridgelabz.linkedin.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.linkedin.testcases.LoginPageTest@1efed156]" name="setUp" is-config="true" duration-ms="7439" started-at="2020-01-10T12:51:53Z" finished-at="2020-01-10T12:52:00Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bridgelabz.linkedin.testcases.LoginPageTest@1efed156]" name="setUp" is-config="true" duration-ms="3398" started-at="2020-01-11T10:07:17Z" finished-at="2020-01-11T10:07:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.bridgelabz.linkedin.testcases.LoginPageTest@1efed156]" name="loginTest" duration-ms="21616" started-at="2020-01-10T12:52:00Z" data-provider="login" finished-at="2020-01-10T12:52:22Z">
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.bridgelabz.linkedin.testcases.LoginPageTest@1efed156]" name="loginTest" duration-ms="7165" started-at="2020-01-11T10:07:20Z" data-provider="login" finished-at="2020-01-11T10:07:27Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.linkedin.testcases.LoginPageTest@1efed156]" name="tearDown" is-config="true" duration-ms="176" started-at="2020-01-10T12:52:22Z" finished-at="2020-01-10T12:52:22Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bridgelabz.linkedin.testcases.LoginPageTest@1efed156]" name="tearDown" is-config="true" duration-ms="119" started-at="2020-01-11T10:07:27Z" finished-at="2020-01-11T10:07:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

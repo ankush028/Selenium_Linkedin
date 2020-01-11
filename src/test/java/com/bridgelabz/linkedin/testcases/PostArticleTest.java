@@ -36,7 +36,7 @@ public class PostArticleTest extends BaseClass{
 		postarticle = new PostArticle();
 	}
 	
-//	@Test(priority = 1)
+	@Test(priority = 1)
 	public void postArticleTest() throws InterruptedException {
 		postarticle.writeArticle();
 		Thread.sleep(3000);

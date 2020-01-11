@@ -3,15 +3,16 @@
 <suite name="Linked Application Test Automation Test Suite">
 
 	<listeners>
-	<listener class-name="com.bridgelabz.linkedin.extentreportlistener.ExtentReporterNG"></listener>
-	</listeners>	
-  	<test name="Linked list App Test Cases">
-    	<classes>
-      		<class name="com.bridgelabz.linkedin.testcases.LoginPageTest"></class>
-  <!--     		<class name="com.bridgelabz.linkedin.testcases.HomePageTest"></class>
-      		<class name="com.bridgelabz.linkedin.testcases.PostArticleTest"></class>
-      		<class name="com.bridgelabz.linkedin.testcases.SignOutTest"></class>
-      		<class name="com.bridgelabz.linkedin.testcases.JoinNowPageTest"></class>-->
-    	</classes>
-  	</test> 
-	</suite> 
+		<listener
+			class-name="com.bridgelabz.linkedin.extentreportlistener.ExtentReporterNG"></listener>
+	</listeners>
+	<test name="Linked list App Test Cases">
+		<classes>
+			<class name="com.bridgelabz.linkedin.testcases.LoginPageTest"></class>
+			<class name="com.bridgelabz.linkedin.testcases.HomePageTest"></class>
+			<class name="com.bridgelabz.linkedin.testcases.PostArticleTest"></class>
+			<class name="com.bridgelabz.linkedin.testcases.SignOutTest"></class>
+			<class name="com.bridgelabz.linkedin.testcases.JoinNowPageTest"></class>
+		</classes>
+	</test>
+</suite> 
